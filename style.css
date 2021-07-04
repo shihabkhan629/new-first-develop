@@ -1,0 +1,27 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.gangstar{
+    color:orange;
+}
+section{
+    display: flex;
+}
+.kolamia{
+    width: 80%;
+    padding-left: 2%;
+}
+.kolamia img{
+    width: 80%;
+}
+.button{
+    text-decoration: pink;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 20px;
+    color: seagreen;
+    font-weight: 700;
+    border-radius: 4px;
+}
