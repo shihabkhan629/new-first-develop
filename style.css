@@ -9,6 +9,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 50px;
 }
 .kolamia{
     width: 80%;
