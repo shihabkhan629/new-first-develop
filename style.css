@@ -7,9 +7,10 @@ h1{
 .gangstar{
     color:orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 50px;
+padding: 5%;
 }
 .kolamia{
     width: 80%;
@@ -25,4 +26,27 @@ section{
     color: seagreen;
     font-weight: 700;
     border-radius: 4px;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 5px 10px 18px rgb(95, 95, 95);
+}
+#id1{
+    border-left: 7px solid;
+    border-image: linear-gradient(
+180deg
+, rgb(69, 5, 245), rgb(36, 248, 255));
+    border-image-slice: 1;
+}
+#id2{
+    border-left: 7px solid;
+    border-image: linear-gradient(
+180deg
+, rgb(2, 245, 253), rgb(9, 233, 27));
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
 }
